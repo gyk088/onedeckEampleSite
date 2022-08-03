@@ -1,0 +1,60 @@
+
+@media print {
+.ep_panel[data-v-ce8657cc] {
+      display: none;
+}
+@page {
+      padding: 0;
+      margin: 0;
+}
+.ep_page[data-v-ce8657cc] {
+      page-break-after: always;
+      margin: 0;
+}
+}
+.ep_panel[data-v-ce8657cc] {
+    position: fixed;
+     background-color: #FFF;
+}
+.ep_wrapper[data-v-ce8657cc] {
+    margin: 0;
+    padding: 0;
+    font: 12pt "Tahoma";
+    min-height: 100vh;
+    background-color: #000;
+}
+.ep_page[data-v-ce8657cc] {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0mm auto;
+    background: white;
+    padding: 11mm;
+    clear: both;
+    margin-bottom: 20px;
+}
+.ep_row[data-v-ce8657cc] {
+    margin-top: 7mm;
+    height: 40mm;
+    clear: both;
+}
+.ep_row[data-v-ce8657cc]:first-child {
+    margin-top: 0mm;
+}
+.ep_cell[data-v-ce8657cc] {
+    width: 58mm;
+    height: 40mm;
+    background: #FFF;
+    float: left;
+    margin-left: 7mm;
+}
+.ep_cell[data-v-ce8657cc]:first-child {
+    margin-left: 0mm;
+}
+.ep_blah[data-v-ce8657cc] {
+    width: 58mm;
+    height: 40mm;
+    border: none;
+}
+
+
+/*# sourceMappingURL=7.style.505b40a526ff1e630ab5.css.map*/
